@@ -6,13 +6,12 @@ const modalBody = document.getElementById('modal-body');
 
 const modalData = {
     'mercado-salamanca': {
-        title: 'Mercado de Salamanca (El Molinillo)',
+        title: 'Mercado de Salamanca',
         text: `
             <p>Mercado de Salamanca is a neighbourhood market where daily shopping is part of a routine rather than an experience. Stalls sell fresh produce, meat, fish, and local products, and many customers come regularly, often knowing the vendors by name.</p>
             <p>The market opened in 1925 and is a notable example of Neo-Mudéjar architecture, with its distinctive brick façade. Located in the Molinillo neighbourhood, it was built to serve local residents and has remained closely tied to everyday life in the area for nearly a century.</p>
             <p>Historically, markets like this have played an important role in Málaga’s neighbourhood life, not only as places to buy food but also as social spaces. Conversations, greetings, and small exchanges are part of the visit.</p>
-            <p>Today, the Mercado de Salamanca continues to reflect a way of life based on proximity, trust, and human interaction, in contrast to faster, more anonymous forms of shopping.</p>
-            <p>However, some stalls are closed, showing how parts of this market have slowly disappeared over time.</p>
+            <p>Today, the Mercado de Salamanca is still part of neighbourhood life, although some stalls are now closed.</p>
         `,
         mainImage: 'images/portada-mercado.jpeg',
         mainCaption: 'Photo by Julia González Ruiz',
@@ -24,20 +23,20 @@ const modalData = {
     'gazpachuelo': {
         title: 'Gazpachuelo',
         text: `
-            <p>Gazpachuelo is a traditional homemade soup from Málaga. It is made with a simple fish broth, potatoes, and a warm mayonnaise added at the end, which gives the dish its creamy texture. Because of this, it requires care when preparing it, especially when mixing the mayonnaise so it does not curdle.</p>
-            <p>Historically, gazpachuelo was eaten in working-class households, especially during colder months. It was a practical and nourishing dish, made with accessible ingredients and cooked regularly at home rather than in restaurants.</p>
-            <p>Today, gazpachuelo remains strongly linked to family kitchens and everyday meals. It is rarely found on menus and is mostly passed down through practice, making it a clear example of Málaga’s domestic food tradition.</p>
+            <p><i>Gazpachuelo</i> is a traditional homemade soup from Málaga. It is made with a simple fish broth, potatoes, and a warm mayonnaise added at the end, which gives the dish its creamy texture. Because of this, it requires care when preparing it, especially when mixing the mayonnaise so it does not curdle.</p>
+            <p>Historically, <i>gazpachuelo</i> was eaten in working-class households, especially during colder months. It was a practical and nourishing dish, made with accessible ingredients and cooked regularly at home rather than in restaurants.</p>
+            <p>Today, <i>gazpachuelo</i> remains strongly linked to family kitchens and everyday meals. It is rarely found on menus and is mostly passed down through practice, making it a clear example of Málaga’s domestic food tradition.</p>
         `,
         mainImage: 'images/gazpachuelo.jpeg',
-        mainCaption: 'Photo by Julia González Ruiz',
+        mainCaption: '',
         gallery: []
     },
     'venta-montes': {
-        title: 'A venta in the Montes de Málaga',
+        title: 'Traditional Venta in the Montes de Málaga',
         text: `
-            <p>Going to a venta in the Montes de Málaga is a long-standing local habit. Ventas are rural roadside places across Andalucía; the name comes from vender (“to sell”) because they originally functioned as small countryside shops for local farmers, and later became restaurants.</p>
-            <p>The food is homemade and filling, with generous portions and traditional dishes rather than anything “fancy.” Many menus are strongly meat-based, and typical plates include plato de los montes (with chorizo, lomo, morcilla, fries, fried green peppers, and a fried egg), migas, lomo con manteca, and winter platos de cuchara like lentejas or puchero.</p>
-            <p>Although ventas are open all year, their busiest season is usually autumn to spring. Locals drive up to the mountains for a long meal and often stay for the afternoon, an easy plan linked to weekends, family gatherings, and time together.</p>
+            <p>Going to a <i>venta</i> in the Montes de Málaga is a long-standing local habit. The Montes de Málaga are the mountains just above the city, and many locals drive up for a long, relaxed meal in a traditional countryside restaurant. <i>Ventas</i> are rural roadside places across Andalucía. The name comes from <i>vender</i> (“to sell”) because they originally functioned as small countryside shops for local farmers, and later became restaurants.</p>
+            <p>The food is homemade and filling, with generous portions and traditional dishes rather than anything “fancy.” Many menus are strongly meat-based, and typical plates include <i>plato de los montes</i> (with <i>chorizo</i>, <i>lomo</i>, <i>morcilla</i>, fries, fried green peppers, and a fried egg), <i>migas</i>, <i>lomo con manteca</i>, and winter <i>platos de cuchara</i> like <i>lentejas</i> or <i>puchero</i>.</p>
+            <p>Although <i>ventas</i> are open all year, their busiest season is usually autumn to spring. Locals drive up to the mountains for a long meal and often stay for the afternoon, an easy plan linked to weekends, family gatherings, and time together.</p>
         `,
         mainImage: 'images/venta.jpeg',
         mainCaption: 'Photo by Julia González Ruiz',
@@ -46,47 +45,47 @@ const modalData = {
     'borrachuelos': {
         title: 'Borrachuelos',
         text: `
-            <p>Borrachuelos are traditional Málaga pastries made with fried wheat dough, flavoured with wine or aguardiente. The name comes from Spanish: borracho means “drunk,” so borrachuelos literally refers to the fact that the dough is “slightly boozy” because it includes a small amount of alcohol.</p>
+            <p><i>Borrachuelos</i> are traditional Málaga pastries made with fried wheat dough, flavoured with wine or <i>aguardiente</i>. The name comes from Spanish: <i>borracho</i> means “drunk,” so <i>borrachuelos</i> literally refers to the fact that the dough is “slightly boozy” because it includes a small amount of alcohol.</p>
             <p>They are especially common in winter and around Christmas, often prepared at home following family recipes passed down over generations. Unlike many bakery sweets, they are closely linked to domestic cooking and shared preparation, usually made in large quantities to share with family and neighbours.</p>
-            <p>They are closely related to pestiños (a very similar dough and frying method) and are typically finished with sugar. With centuries of history, they are also traditionally linked to religious celebrations, which is why they appear not only at Christmas but also around Semana Santa.</p>
+            <p>They are closely related to <i>pestiños</i> (a very similar dough and frying method) and are typically finished with sugar. With centuries of history, they are also traditionally linked to religious celebrations, which is why they appear not only at Christmas but also around Semana Santa.</p>
         `,
         mainImage: 'images/borrachuelos.jpeg',
         mainCaption: 'Photo by Julia González Ruiz. Borrachuelos made by my grandmother and aunt',
         gallery: []
     },
     'churros': {
-        title: 'Ordering coffee in Málaga',
+        title: 'How to order coffee in Málaga',
         text: `
             <p>Coffee in Málaga has its own system. Instead of asking for “coffee with milk,” people order based on the proportion of coffee to milk, using specific names.</p>
-            <p>From solo (only coffee) to nube (almost all milk), this is the standard way to order coffee across the city, a system especially associated with Café Central, where it became widely established and well known. Ordering coffee this way brings you a little closer to being a true malagueño.</p>
-            <img src="images/cafe.jpg" alt="Types of Coffee in Málaga" class="modal-full-width">
+            <p>From <i>solo</i> (only coffee) to <i>nube</i> (almost all milk), this is the standard way to order coffee across the city, a system especially associated with Café Central, where it became widely established and well known. Ordering coffee this way brings you a little closer to being a true <i>malagueño</i>.</p>
+            <img src="images/cafe.jpg" alt="Types of Coffee in Málaga" class="modal-secondary-img">
             <span class="img-caption">Image from Café Santa Cristina</span>
         `,
         mainImage: 'images/pedir-cafe.webp',
         mainImagePosition: 'top',
-        mainCaption: 'Photo by Julia González Ruiz',
+        mainCaption: '',
         gallery: []
     },
     'verdiales': {
         title: 'Verdiales',
         text: `
-            <p>Verdiales is one of the oldest living musical traditions in Málaga, with origins that date back more than 3,000 years. Its roots are linked to ancient agricultural rituals and celebrations connected to the land, long before the city became what it is today.</p>
-            <p>The tradition combines violin, guitars, tambourines, cymbals, and singing, performed by groups known as pandas. Historically, verdiales was played in rural areas and villages around Málaga during seasonal festivities, especially related to harvests and communal gatherings.</p>
-            <p>Today, verdiales remains a living tradition, passed down through families and local communities. It is still celebrated publicly during events such as the Verdiales Festival in Puerto de la Torre, where music, dance, and community continue to come together in a way that is rooted in local identity rather than spectacle.</p>
+            <p><i>Verdiales</i> is one of the oldest living musical traditions in Málaga, with origins that date back more than 3,000 years. Its roots are linked to ancient agricultural rituals and celebrations connected to the land, long before the city became what it is today.</p>
+            <p>The tradition combines violin, guitars, tambourines, cymbals, and singing, performed by groups known as <i>pandas</i>. Historically, <i>verdiales</i> was played in rural areas and villages around Málaga during seasonal festivities, especially related to harvests and communal gatherings.</p>
+            <p>Today, <i>verdiales</i> remains a living tradition, passed down through families and local communities. It is still celebrated publicly during events such as the Verdiales Festival in Puerto de la Torre, where music, dance, and community continue to come together in a way that is rooted in local identity rather than spectacle.</p>
         `,
         mainImage: 'images/verdiales.jpg',
-        mainCaption: 'Photo by Julia González Ruiz',
+        mainCaption: '',
         gallery: [],
         videoLink: 'https://www.facebook.com/share/r/1CSyxoV4k5/'
     },
     'el-tintero': {
         title: 'El Tintero',
         text: `
-            <p>El Tintero is known for its unique way of serving food, often described as “auction-style.” There is no menu to order from. Instead, waiters walk between tables carrying freshly cooked dishes and calling them out loud. If you want something, you signal, and the plate is brought to your table.</p>
+            <p>El Tintero is a seaside restaurant known for its unique way of serving food, often described as “auction-style.” There is no menu to order from. Instead, waiters walk between tables carrying freshly cooked dishes and calling them out loud. If you want something, you signal, and the plate is brought to your table.</p>
             <p>Located in El Palo, on Málaga’s eastern coast, El Tintero has been part of local seaside life since the late 20th century. Its system was born out of practicality and gradually became a defining feature of the place.</p>
             <p>More than a restaurant, El Tintero represents a local gastronomic ritual, informal, social, and deeply rooted in Málaga’s everyday coastal culture.</p>
 
-            <img src="images/Chiringuito.jpeg" alt="Chiringuito El Tintero" class="modal-center-img">
+            <img src="images/Chiringuito.jpeg" alt="Chiringuito El Tintero" class="modal-secondary-img">
             <span class="img-caption" style="text-align: center; display: block;">Photo by Julia González Ruiz</span>
         `,
         mainImage: 'images/el-tintero.jpeg',
@@ -96,7 +95,7 @@ const modalData = {
         gallery: []
     },
     'el-palo': {
-        title: 'El Palo · Pedregalejo',
+        title: 'El Palo & Pedregalejo',
         text: `
             <p>El Palo and Pedregalejo are traditional seaside neighbourhoods with deep fishing roots. For centuries, they developed as coastal settlements linked to artisanal fishing and maritime life, a history that still shapes their identity today.</p>
             <p>Life here unfolds along the promenade, where walking, meeting neighbours, and eating by the sea are part of everyday routine. The rhythm is calm and familiar, built around daily habits rather than sightseeing.</p>
@@ -125,13 +124,13 @@ const modalData = {
     'puente-alemanes': {
         title: 'Puente de los Alemanes',
         text: `
-            <p>The Puente de los Alemanes is one of Málaga’s most meaningful landmarks, rooted in an act of mutual solidarity. Its origin dates back to the 1900 flood, when the Guadalmedina river overflowed and caused severe destruction in the city, leaving many families homeless.</p>
-            <p>In the aftermath, Málaga received significant humanitarian aid from Germany, including donations and support for reconstruction. Years later, in 1907, a German warship (Gneisenau) sank off the coast of Málaga during a storm. Local fishermen and residents risked their lives to rescue the crew, saving dozens of sailors.</p>
-            <p>As a gesture of gratitude for that help, and in memory of the lives lost, Germany funded the construction of this bridge, inaugurated in 1909. The structure was designed not only to serve a practical purpose, but to stand as a symbol of solidarity between the two communities.</p>
+            <p>Puente de los Alemanes is a bridge in Málaga and one of the city’s most meaningful landmarks, rooted in an act of mutual solidarity. Its story begins in 1900, when the German training ship <i>Gneisenau</i> shipwrecked off the coast of Málaga during a severe storm. Local fishermen and residents risked their lives to rescue the crew, saving many sailors.</p>
+            <p>Years later, in 1907, a catastrophic flood of the Guadalmedina river destroyed several bridges and caused serious damage across the city. In response, Germany organised support and fundraising to help Málaga recover from the disaster.</p>
+            <p>As a gesture of gratitude for the rescue, and as support after the flood, Germany funded the construction of a new bridge. The Puente de los Alemanes was inaugurated in 1909 and became a lasting symbol of solidarity between the two communities.</p>
             <p>Today, it is simply part of the city’s everyday route, until you know what it represents.</p>
         `,
         mainImage: 'images/puente-alemanes.jpg',
-        mainCaption: 'Photo by Julia González Ruiz',
+        mainCaption: '',
         gallery: []
     },
     'cementerio-ingles': {
@@ -142,13 +141,13 @@ const modalData = {
             <p>Located on the eastern side of the city, the cemetery has a quiet, intimate atmosphere. More than a burial place, it preserves personal stories, names, and memories that form part of Málaga’s lesser-known history, a space where the city’s past can still be read in silence.</p>
         `,
         mainImage: 'images/cementerio-ingles.jpg',
-        mainCaption: 'Photo by Julia González Ruiz',
+        mainCaption: '',
         gallery: []
     },
     'santuario-victoria': {
         title: 'Santuario de la Virgen de la Victoria',
         text: `
-            <p>The Sanctuary of the Virgen de la Victoria is one of Málaga’s most important religious and historical sites. Its origins date back to the late 15th century, linked to the Christian conquest of the city in 1487, when the Virgin of Victory became Málaga’s patron saint.</p>
+            <p>Santuario de la Virgen de la Victoria is a historic sanctuary and one of Málaga’s most important religious sites. Its origins date back to the late 15th century, linked to the Christian conquest of the city in 1487, when the Virgin of Victory became Málaga’s patron saint.</p>
             <p>Over time, the sanctuary evolved into a place of devotion closely connected to local religious life. The complex includes the church, the crypt, and the Camarín de la Virgen, a richly decorated baroque space built in the 18th century, reflecting the importance of the site beyond its architectural value.</p>
             <p>Today, the sanctuary remains part of Málaga’s living tradition. It is especially present during local religious celebrations and continues to hold strong emotional meaning for many residents, linking faith, history, and collective memory.</p>
         `,
@@ -163,10 +162,10 @@ const modalData = {
     'parador-gibralfaro': {
         title: 'Parador de Gibralfaro',
         text: `
-            <p>The Parador de Gibralfaro is located on Mount Gibralfaro, overlooking the city, the port, and the Mediterranean. It stands on a site historically linked to Málaga’s defensive past, near the castle that once protected the city.</p>
-            <p>The building opened in 1948 as part of the Spanish Paradores network, created to reuse historically significant locations. Its position offers a viewpoint that helps understand Málaga’s geography and its relationship with the sea.</p>
-            <p>Unlike many of the places in this collection, the Parador is well known to visitors for its panoramic views. Even so, it has become part of Málaga’s collective memory, where history, landscape, and everyday city life meet from above.</p>
-            <img src="images/plaza-de-toros.jpg" alt="Plaza de Toros de la Malagueta from Gibralfaro" class="modal-center-img" style="max-width: 50%;">
+            <p>Parador de Gibralfaro is a hotel located on Mount Gibralfaro, overlooking the city, the port, and the Mediterranean. It belongs to Spain’s <i>Paradores</i> network, a state-owned collection of hotels placed in historically significant buildings and exceptional natural settings, created to preserve heritage and encourage travel beyond the obvious.</p>
+            <p>The Parador opened in 1948, on a site linked to Málaga’s defensive past, near the castle that once protected the city. Its position offers a viewpoint that helps understand Málaga’s geography and its relationship with the sea.</p>
+            <p>Unlike many places in this collection, the Parador is well known to visitors for its panoramic views. Even so, it has become part of Málaga’s collective memory, a place where history, landscape, and everyday city life meet from above.</p>
+            <img src="images/Coches.jpeg" alt="Cars in Málaga" class="modal-secondary-img">
             <span class="img-caption" style="text-align: center; display: block;">Photo by Julia González Ruiz</span>
         `,
         mainImage: 'images/parador-gibralfaro.jpeg',
@@ -300,7 +299,12 @@ function handleInlineExpansion(id, cardElement, data) {
 
     expandedSection.innerHTML = `
         <div class="inline-content-wrapper">
-            <button class="close-inline">&times;</button>
+            <button class="close-inline" aria-label="Close">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+            </button>
             <img src="${data.mainImage}" alt="${data.title}" class="inline-main-img"${imgStyle}>
             <span class="img-caption">${data.mainCaption}</span>
             <h2 class="inline-title">${data.title}</h2>
